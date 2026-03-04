@@ -1,0 +1,5053 @@
+{
+	"Generated": "2026-03-04T21:25:24.450Z",
+	"DocumentCount": 8,
+	"LunrIndex": {
+		"version": "2.3.9",
+		"fields": [
+			"title",
+			"module",
+			"group",
+			"body"
+		],
+		"fieldVectors": [
+			[
+				"title/docs/api/api/README.md",
+				[
+					0,
+					1.967,
+					1,
+					6.931
+				]
+			],
+			[
+				"module/docs/api/api/README.md",
+				[
+					0,
+					0.984
+				]
+			],
+			[
+				"group/docs/api/api/README.md",
+				[
+					2,
+					0.171
+				]
+			],
+			[
+				"body/docs/api/api/README.md",
+				[
+					0,
+					0.303,
+					1,
+					1.068,
+					3,
+					0.502,
+					4,
+					0.407,
+					5,
+					0.821,
+					6,
+					1.728,
+					7,
+					2.402,
+					8,
+					1.728,
+					9,
+					1.728,
+					10,
+					1.728,
+					11,
+					1.235,
+					12,
+					1.728,
+					13,
+					0.911,
+					14,
+					1.235,
+					15,
+					1.235,
+					16,
+					0.124,
+					17,
+					1.728,
+					18,
+					1.728,
+					19,
+					1.717,
+					20,
+					1.235,
+					21,
+					1.717,
+					22,
+					0.57,
+					23,
+					0.104,
+					24,
+					0.104,
+					25,
+					0.475,
+					26,
+					0.281,
+					27,
+					0.759,
+					28,
+					0.304,
+					29,
+					1.235,
+					30,
+					0.475,
+					31,
+					1.235,
+					32,
+					1.235,
+					33,
+					0.339,
+					34,
+					1.717,
+					35,
+					1.068,
+					36,
+					1.155,
+					37,
+					0.759,
+					38,
+					1.235,
+					39,
+					0.911,
+					40,
+					1.235,
+					41,
+					1.235,
+					42,
+					0.911,
+					43,
+					0.911,
+					44,
+					0.1,
+					45,
+					0.934,
+					46,
+					0.911,
+					47,
+					0.542,
+					48,
+					0.244,
+					49,
+					0.911,
+					50,
+					1.717,
+					51,
+					1.266,
+					52,
+					0.668,
+					53,
+					0.475,
+					54,
+					0.436,
+					55,
+					1.068,
+					56,
+					1.266,
+					57,
+					0.911,
+					58,
+					0.911,
+					59,
+					0.176,
+					60,
+					1.235,
+					61,
+					1.235,
+					62,
+					1.235,
+					63,
+					0.475,
+					64,
+					0.542,
+					65,
+					0.911,
+					66,
+					1.235,
+					67,
+					1.235,
+					68,
+					1.235,
+					69,
+					0.66,
+					70,
+					1.235,
+					71,
+					1.235,
+					72,
+					0.66,
+					73,
+					0.668,
+					74,
+					0.668,
+					75,
+					0.668,
+					76,
+					0.668,
+					77,
+					0.668,
+					78,
+					0.911,
+					79,
+					1.235,
+					80,
+					1.235,
+					81,
+					0.668
+				]
+			],
+			[
+				"title/docs/api/api/authentication.md",
+				[
+					33,
+					2.292
+				]
+			],
+			[
+				"module/docs/api/api/authentication.md",
+				[
+					0,
+					0.984
+				]
+			],
+			[
+				"group/docs/api/api/authentication.md",
+				[
+					2,
+					0.171
+				]
+			],
+			[
+				"body/docs/api/api/authentication.md",
+				[
+					3,
+					0.34,
+					4,
+					0.39,
+					16,
+					0.123,
+					22,
+					0.523,
+					23,
+					0.092,
+					24,
+					0.081,
+					25,
+					0.514,
+					26,
+					0.352,
+					27,
+					0.514,
+					28,
+					0.258,
+					30,
+					0.514,
+					33,
+					0.367,
+					34,
+					2.059,
+					35,
+					1.287,
+					36,
+					1.114,
+					44,
+					0.092,
+					47,
+					0.34,
+					48,
+					0.328,
+					53,
+					0.698,
+					54,
+					0.523,
+					59,
+					0.19,
+					63,
+					0.698,
+					64,
+					0.561,
+					69,
+					0.698,
+					72,
+					0.792,
+					74,
+					0.724,
+					75,
+					0.724,
+					82,
+					1.871,
+					83,
+					1.871,
+					84,
+					1.338,
+					85,
+					1.338,
+					86,
+					1.814,
+					87,
+					1.518,
+					88,
+					2.538,
+					89,
+					0.986,
+					90,
+					2.207,
+					91,
+					1.814,
+					92,
+					1.871,
+					93,
+					2.059,
+					94,
+					1.338,
+					95,
+					1.871,
+					96,
+					1.338,
+					97,
+					1.814,
+					98,
+					0.561,
+					99,
+					0.258,
+					100,
+					0.34,
+					101,
+					0.514,
+					102,
+					1.754,
+					103,
+					1.338,
+					104,
+					1.814,
+					105,
+					1.871,
+					106,
+					0.461,
+					107,
+					1.871,
+					108,
+					0.461,
+					109,
+					2.538,
+					110,
+					1.871,
+					111,
+					1.871,
+					112,
+					0.34,
+					113,
+					0.792,
+					114,
+					2.538,
+					115,
+					1.871,
+					116,
+					0.698,
+					117,
+					1.338,
+					118,
+					1.871,
+					119,
+					1.338,
+					120,
+					0.314,
+					121,
+					1.871,
+					122,
+					1.338,
+					123,
+					0.986,
+					124,
+					0.461,
+					125,
+					0.986,
+					126,
+					0.792,
+					127,
+					0.724,
+					128,
+					1.338,
+					129,
+					1.338,
+					130,
+					0.986,
+					131,
+					1.871,
+					132,
+					0.982,
+					133,
+					0.986
+				]
+			],
+			[
+				"title/docs/api/api/configuration.md",
+				[
+					4,
+					1.967,
+					26,
+					1.823
+				]
+			],
+			[
+				"module/docs/api/api/configuration.md",
+				[
+					0,
+					0.984
+				]
+			],
+			[
+				"group/docs/api/api/configuration.md",
+				[
+					2,
+					0.171
+				]
+			],
+			[
+				"body/docs/api/api/configuration.md",
+				[
+					0,
+					0.167,
+					1,
+					0.587,
+					3,
+					0.511,
+					4,
+					0.373,
+					16,
+					0.125,
+					22,
+					0.467,
+					23,
+					0.07,
+					24,
+					0.095,
+					26,
+					0.317,
+					28,
+					0.304,
+					33,
+					0.304,
+					35,
+					0.847,
+					37,
+					0.855,
+					43,
+					1.155,
+					44,
+					0.095,
+					45,
+					0.821,
+					47,
+					0.275,
+					48,
+					0.223,
+					50,
+					1.084,
+					52,
+					0.995,
+					53,
+					0.774,
+					54,
+					0.511,
+					59,
+					0.154,
+					64,
+					0.597,
+					69,
+					0.602,
+					72,
+					0.602,
+					73,
+					0.847,
+					75,
+					0.587,
+					76,
+					0.847,
+					77,
+					0.847,
+					80,
+					1.084,
+					81,
+					1.241,
+					87,
+					1.155,
+					90,
+					1.566,
+					94,
+					1.084,
+					96,
+					1.566,
+					97,
+					1.566,
+					99,
+					0.317,
+					102,
+					0.799,
+					106,
+					0.275,
+					112,
+					0.398,
+					113,
+					0.774,
+					117,
+					1.084,
+					120,
+					0.154,
+					124,
+					0.583,
+					126,
+					0.774,
+					127,
+					0.847,
+					130,
+					1.355,
+					132,
+					0.587,
+					134,
+					1.838,
+					135,
+					1.517,
+					136,
+					1.084,
+					137,
+					1.084,
+					138,
+					1.517,
+					139,
+					1.517,
+					140,
+					1.155,
+					141,
+					2.19,
+					142,
+					1.838,
+					143,
+					2.19,
+					144,
+					1.517,
+					145,
+					1.517,
+					146,
+					0.799,
+					147,
+					1.517,
+					148,
+					1.517,
+					149,
+					1.517,
+					150,
+					1.517,
+					151,
+					1.517,
+					152,
+					0.799,
+					153,
+					1.566,
+					154,
+					2.19,
+					155,
+					1.566,
+					156,
+					1.084,
+					157,
+					1.517,
+					158,
+					1.517,
+					159,
+					1.566,
+					160,
+					1.517,
+					161,
+					1.517,
+					162,
+					1.517,
+					163,
+					1.517
+				]
+			],
+			[
+				"title/docs/api/api/credential-injection.md",
+				[
+					44,
+					0.572,
+					45,
+					4.925
+				]
+			],
+			[
+				"module/docs/api/api/credential-injection.md",
+				[
+					0,
+					0.984
+				]
+			],
+			[
+				"group/docs/api/api/credential-injection.md",
+				[
+					2,
+					0.171
+				]
+			],
+			[
+				"body/docs/api/api/credential-injection.md",
+				[
+					4,
+					0.386,
+					13,
+					0.936,
+					16,
+					0.124,
+					22,
+					0.445,
+					23,
+					0.096,
+					24,
+					0.096,
+					25,
+					0.488,
+					26,
+					0.181,
+					27,
+					0.673,
+					28,
+					0.307,
+					33,
+					0.181,
+					36,
+					1.169,
+					37,
+					0.488,
+					39,
+					1.291,
+					44,
+					0.107,
+					45,
+					0.966,
+					46,
+					0.936,
+					47,
+					0.445,
+					48,
+					0.369,
+					49,
+					0.936,
+					51,
+					0.936,
+					52,
+					0.687,
+					53,
+					0.77,
+					54,
+					0.576,
+					55,
+					0.687,
+					57,
+					0.936,
+					59,
+					0.181,
+					63,
+					0.673,
+					73,
+					0.687,
+					74,
+					0.687,
+					81,
+					1.384,
+					98,
+					0.621,
+					99,
+					0.307,
+					100,
+					0.445,
+					101,
+					0.77,
+					106,
+					0.323,
+					108,
+					0.549,
+					116,
+					0.673,
+					120,
+					0.333,
+					124,
+					0.549,
+					125,
+					1.291,
+					126,
+					0.488,
+					127,
+					0.687,
+					129,
+					1.291,
+					152,
+					1.291,
+					164,
+					1.776,
+					165,
+					2.803,
+					166,
+					1.776,
+					167,
+					2.449,
+					168,
+					1.776,
+					169,
+					3.021,
+					170,
+					1.776,
+					171,
+					1.776,
+					172,
+					1.27,
+					173,
+					1.776,
+					174,
+					1.776,
+					175,
+					1.776,
+					176,
+					1.27,
+					177,
+					1.27,
+					178,
+					1.776,
+					179,
+					1.776,
+					180,
+					1.776,
+					181,
+					1.27,
+					182,
+					1.751,
+					183,
+					1.27,
+					184,
+					1.776,
+					185,
+					1.776,
+					186,
+					1.776
+				]
+			],
+			[
+				"title/docs/api/api/rest-client-connection.md",
+				[
+					47,
+					2.702,
+					55,
+					5.754,
+					56,
+					7.841
+				]
+			],
+			[
+				"module/docs/api/api/rest-client-connection.md",
+				[
+					0,
+					0.984
+				]
+			],
+			[
+				"group/docs/api/api/rest-client-connection.md",
+				[
+					2,
+					0.171
+				]
+			],
+			[
+				"body/docs/api/api/rest-client-connection.md",
+				[
+					1,
+					1.06,
+					3,
+					0.382,
+					4,
+					0.355,
+					5,
+					0.838,
+					11,
+					1.959,
+					14,
+					2.181,
+					16,
+					0.123,
+					23,
+					0.087,
+					24,
+					0.087,
+					30,
+					0.577,
+					44,
+					0.097,
+					45,
+					0.838,
+					46,
+					1.445,
+					47,
+					0.498,
+					48,
+					0.31,
+					49,
+					1.107,
+					52,
+					0.813,
+					55,
+					1.06,
+					56,
+					1.873,
+					57,
+					1.107,
+					58,
+					1.608,
+					59,
+					0.214,
+					60,
+					2.504,
+					61,
+					1.502,
+					62,
+					2.181,
+					63,
+					0.577,
+					98,
+					0.587,
+					99,
+					0.279,
+					100,
+					0.498,
+					102,
+					1.445,
+					106,
+					0.382,
+					108,
+					0.498,
+					112,
+					0.382,
+					116,
+					0.577,
+					120,
+					0.341,
+					124,
+					0.498,
+					133,
+					1.107,
+					134,
+					1.959,
+					136,
+					1.502,
+					146,
+					1.445,
+					152,
+					1.107,
+					187,
+					2.101,
+					188,
+					3.592,
+					189,
+					2.101,
+					190,
+					2.101,
+					191,
+					2.101,
+					192,
+					2.101,
+					193,
+					2.101,
+					194,
+					3.051,
+					195,
+					2.101,
+					196,
+					2.101,
+					197,
+					2.101,
+					198,
+					2.101,
+					199,
+					2.101,
+					200,
+					2.101,
+					201,
+					2.101,
+					202,
+					2.741,
+					203,
+					2.101,
+					204,
+					2.101,
+					205,
+					1.107
+				]
+			],
+			[
+				"title/docs/api/api/session-check.md",
+				[
+					4,
+					1.967,
+					37,
+					4.925
+				]
+			],
+			[
+				"module/docs/api/api/session-check.md",
+				[
+					0,
+					0.984
+				]
+			],
+			[
+				"group/docs/api/api/session-check.md",
+				[
+					2,
+					0.171
+				]
+			],
+			[
+				"body/docs/api/api/session-check.md",
+				[
+					3,
+					0.468,
+					4,
+					0.4,
+					16,
+					0.123,
+					22,
+					0.529,
+					23,
+					0.082,
+					24,
+					0.082,
+					25,
+					0.525,
+					26,
+					0.194,
+					27,
+					0.856,
+					28,
+					0.194,
+					30,
+					0.525,
+					33,
+					0.331,
+					35,
+					1.364,
+					36,
+					1.126,
+					37,
+					0.956,
+					38,
+					1.366,
+					39,
+					1.007,
+					40,
+					1.366,
+					41,
+					1.84,
+					42,
+					1.357,
+					43,
+					1.714,
+					44,
+					0.061,
+					48,
+					0.317,
+					59,
+					0.194,
+					63,
+					0.708,
+					64,
+					0.347,
+					69,
+					0.708,
+					72,
+					0.8,
+					76,
+					0.739,
+					77,
+					0.739,
+					78,
+					1.534,
+					81,
+					0.739,
+					84,
+					1.366,
+					86,
+					2.081,
+					87,
+					1.007,
+					89,
+					1.007,
+					91,
+					1.366,
+					93,
+					1.366,
+					98,
+					0.566,
+					99,
+					0.262,
+					100,
+					0.347,
+					101,
+					0.525,
+					103,
+					1.366,
+					104,
+					1.366,
+					106,
+					0.347,
+					108,
+					0.566,
+					112,
+					0.347,
+					113,
+					0.8,
+					116,
+					0.8,
+					120,
+					0.296,
+					122,
+					1.366,
+					123,
+					1.007,
+					124,
+					0.529,
+					125,
+					1.007,
+					126,
+					0.525,
+					127,
+					0.996,
+					128,
+					1.366,
+					129,
+					1.357,
+					130,
+					1.007,
+					132,
+					0.739,
+					133,
+					1.007,
+					140,
+					1.007,
+					142,
+					1.366,
+					206,
+					1.911,
+					207,
+					2.324,
+					208,
+					1.911,
+					209,
+					2.574,
+					210,
+					2.574,
+					211,
+					2.574,
+					212,
+					1.366,
+					213,
+					1.366,
+					214,
+					1.911,
+					215,
+					1.911,
+					216,
+					1.911,
+					217,
+					1.911,
+					218,
+					1.911,
+					219,
+					1.911,
+					220,
+					1.911,
+					221,
+					1.911,
+					222,
+					1.911
+				]
+			],
+			[
+				"title/docs/api/api/session-management.md",
+				[
+					4,
+					1.967,
+					5,
+					4.925
+				]
+			],
+			[
+				"module/docs/api/api/session-management.md",
+				[
+					0,
+					0.984
+				]
+			],
+			[
+				"group/docs/api/api/session-management.md",
+				[
+					2,
+					0.171
+				]
+			],
+			[
+				"body/docs/api/api/session-management.md",
+				[
+					4,
+					0.414,
+					5,
+					0.833,
+					13,
+					0.944,
+					16,
+					0.124,
+					19,
+					1.761,
+					20,
+					1.761,
+					21,
+					2.167,
+					22,
+					0.645,
+					23,
+					0.057,
+					24,
+					0.101,
+					25,
+					0.492,
+					26,
+					0.323,
+					27,
+					0.925,
+					28,
+					0.334,
+					29,
+					1.761,
+					30,
+					0.492,
+					31,
+					1.28,
+					32,
+					1.761,
+					33,
+					0.251,
+					44,
+					0.057,
+					53,
+					0.492,
+					54,
+					0.325,
+					85,
+					1.28,
+					98,
+					0.639,
+					99,
+					0.323,
+					100,
+					0.577,
+					101,
+					0.833,
+					108,
+					0.596,
+					112,
+					0.325,
+					113,
+					0.492,
+					119,
+					1.28,
+					120,
+					0.334,
+					124,
+					0.511,
+					137,
+					2.012,
+					205,
+					1.598,
+					207,
+					1.28,
+					212,
+					1.28,
+					213,
+					1.28,
+					223,
+					2.815,
+					224,
+					1.791,
+					225,
+					1.791,
+					226,
+					1.791,
+					227,
+					1.791,
+					228,
+					1.791,
+					229,
+					1.791,
+					230,
+					1.791,
+					231,
+					1.791,
+					232,
+					1.791,
+					233,
+					1.791,
+					234,
+					1.791,
+					235,
+					1.28,
+					236,
+					1.791,
+					237,
+					1.791,
+					238,
+					1.791
+				]
+			],
+			[
+				"title/docs/api/api/template-helpers.md",
+				[
+					64,
+					3.254,
+					65,
+					9.445
+				]
+			],
+			[
+				"module/docs/api/api/template-helpers.md",
+				[
+					0,
+					0.984
+				]
+			],
+			[
+				"group/docs/api/api/template-helpers.md",
+				[
+					2,
+					0.171
+				]
+			],
+			[
+				"body/docs/api/api/template-helpers.md",
+				[
+					3,
+					0.505,
+					4,
+					0.192,
+					5,
+					0.666,
+					15,
+					1.733,
+					16,
+					0.124,
+					23,
+					0.056,
+					24,
+					0.089,
+					28,
+					0.363,
+					42,
+					0.922,
+					48,
+					0.247,
+					51,
+					1.278,
+					54,
+					0.44,
+					58,
+					0.922,
+					59,
+					0.178,
+					64,
+					0.661,
+					65,
+					0.922,
+					66,
+					1.251,
+					67,
+					1.251,
+					68,
+					1.988,
+					69,
+					0.825,
+					70,
+					1.251,
+					71,
+					1.251,
+					72,
+					0.866,
+					73,
+					1.293,
+					74,
+					0.677,
+					75,
+					1.161,
+					76,
+					0.938,
+					77,
+					0.938,
+					78,
+					0.922,
+					79,
+					1.251,
+					89,
+					0.922,
+					98,
+					0.607,
+					99,
+					0.283,
+					100,
+					0.505,
+					101,
+					0.896,
+					106,
+					0.318,
+					108,
+					0.619,
+					112,
+					0.573,
+					113,
+					0.896,
+					116,
+					0.666,
+					120,
+					0.305,
+					123,
+					1.278,
+					126,
+					0.764,
+					132,
+					0.677,
+					140,
+					1.278,
+					146,
+					0.922,
+					153,
+					1.251,
+					155,
+					1.251,
+					156,
+					1.251,
+					159,
+					1.251,
+					172,
+					1.251,
+					176,
+					1.733,
+					177,
+					1.251,
+					181,
+					1.251,
+					182,
+					2.254,
+					183,
+					1.251,
+					205,
+					0.922,
+					235,
+					1.251,
+					239,
+					2.424,
+					240,
+					1.75,
+					241,
+					2.424,
+					242,
+					1.75,
+					243,
+					2.424,
+					244,
+					3.152,
+					245,
+					1.75,
+					246,
+					1.75,
+					247,
+					1.75,
+					248,
+					1.75,
+					249,
+					1.75,
+					250,
+					1.75,
+					251,
+					1.75,
+					252,
+					1.75,
+					253,
+					1.75,
+					254,
+					1.75,
+					255,
+					1.75,
+					256,
+					1.75,
+					257,
+					1.75,
+					258,
+					1.75,
+					259,
+					1.75,
+					260,
+					1.75,
+					261,
+					1.75,
+					262,
+					1.75,
+					263,
+					1.75,
+					264,
+					1.75,
+					265,
+					1.75,
+					266,
+					1.75,
+					267,
+					1.75
+				]
+			]
+		],
+		"invertedIndex": [
+			[
+				"",
+				{
+					"_index": 16,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"access",
+				{
+					"_index": 15,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"actual",
+				{
+					"_index": 144,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"ad",
+				{
+					"_index": 31,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"add",
+				{
+					"_index": 25,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"address",
+				{
+					"_index": 69,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"addsession(pnam",
+				{
+					"_index": 224,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"against",
+				{
+					"_index": 106,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"alreadi",
+				{
+					"_index": 110,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"and/or",
+				{
+					"_index": 166,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"api",
+				{
+					"_index": 0,
+					"title": {
+						"docs/api/api/README.md": {}
+					},
+					"module": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"appropri",
+				{
+					"_index": 193,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"area",
+				{
+					"_index": 12,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {}
+					}
+				}
+			],
+			[
+				"argument",
+				{
+					"_index": 136,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"attempt",
+				{
+					"_index": 97,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"authent",
+				{
+					"_index": 33,
+					"title": {
+						"docs/api/api/authentication.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"authenticate(pnam",
+				{
+					"_index": 82,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"auto",
+				{
+					"_index": 50,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"automat",
+				{
+					"_index": 59,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"avail",
+				{
+					"_index": 79,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"base",
+				{
+					"_index": 127,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"basic",
+				{
+					"_index": 216,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"behavior",
+				{
+					"_index": 63,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"between",
+				{
+					"_index": 96,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"bodi",
+				{
+					"_index": 75,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"browser",
+				{
+					"_index": 183,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"build",
+				{
+					"_index": 74,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"buildrequestbody(ptempl",
+				{
+					"_index": 246,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"cach",
+				{
+					"_index": 211,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"call",
+				{
+					"_index": 116,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"callback",
+				{
+					"_index": 103,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"capabl",
+				{
+					"_index": 259,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"categori",
+				{
+					"_index": 18,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {}
+					}
+				}
+			],
+			[
+				"check",
+				{
+					"_index": 37,
+					"title": {
+						"docs/api/api/session-check.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"checksession(pnam",
+				{
+					"_index": 206,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"clear",
+				{
+					"_index": 32,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"client",
+				{
+					"_index": 55,
+					"title": {
+						"docs/api/api/rest-client-connection.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"complet",
+				{
+					"_index": 80,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"concurr",
+				{
+					"_index": 107,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"configur",
+				{
+					"_index": 26,
+					"title": {
+						"docs/api/api/configuration.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"connect",
+				{
+					"_index": 56,
+					"title": {
+						"docs/api/api/rest-client-connection.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"connecttorestclient(prestcli",
+				{
+					"_index": 187,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"construct",
+				{
+					"_index": 239,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"contain",
+				{
+					"_index": 232,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"context",
+				{
+					"_index": 159,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"cooki",
+				{
+					"_index": 54,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"copi",
+				{
+					"_index": 176,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"creat",
+				{
+					"_index": 19,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"credenti",
+				{
+					"_index": 44,
+					"title": {
+						"docs/api/api/credential-injection.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"current",
+				{
+					"_index": 42,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"custom",
+				{
+					"_index": 129,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"data",
+				{
+					"_index": 113,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"deauthent",
+				{
+					"_index": 238,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"deauthenticate(pnam",
+				{
+					"_index": 236,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"debounc",
+				{
+					"_index": 207,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"deep",
+				{
+					"_index": 249,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"default",
+				{
+					"_index": 124,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"defin",
+				{
+					"_index": 258,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"delay",
+				{
+					"_index": 95,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"descript",
+				{
+					"_index": 24,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"detect",
+				{
+					"_index": 51,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"detectcookiecap",
+				{
+					"_index": 257,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"determin",
+				{
+					"_index": 218,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"differ",
+				{
+					"_index": 267,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"direct",
+				{
+					"_index": 241,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"directli",
+				{
+					"_index": 264,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"disconnect",
+				{
+					"_index": 60,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"disconnectrestclient(prestcli",
+				{
+					"_index": 201,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"doc",
+				{
+					"_index": 2,
+					"title": {},
+					"module": {},
+					"group": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					},
+					"body": {}
+				}
+			],
+			[
+				"domain",
+				{
+					"_index": 191,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"dot",
+				{
+					"_index": 76,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"dure",
+				{
+					"_index": 261,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"e.g",
+				{
+					"_index": 153,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"each",
+				{
+					"_index": 173,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"ecosystem",
+				{
+					"_index": 255,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"empti",
+				{
+					"_index": 243,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"endpoint",
+				{
+					"_index": 141,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"engin",
+				{
+					"_index": 147,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"environ",
+				{
+					"_index": 182,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"error",
+				{
+					"_index": 109,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"evalu",
+				{
+					"_index": 43,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"exampl",
+				{
+					"_index": 120,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"exist",
+				{
+					"_index": 39,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"expos",
+				{
+					"_index": 6,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {}
+					}
+				}
+			],
+			[
+				"express",
+				{
+					"_index": 142,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"expressionpars",
+				{
+					"_index": 222,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"extract",
+				{
+					"_index": 88,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"fabl",
+				{
+					"_index": 58,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"fail",
+				{
+					"_index": 92,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"failur",
+				{
+					"_index": 117,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"falsi",
+				{
+					"_index": 244,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"fcallback",
+				{
+					"_index": 84,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"first",
+				{
+					"_index": 199,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"found",
+				{
+					"_index": 205,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"function",
+				{
+					"_index": 11,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"get",
+				{
+					"_index": 171,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"getsess",
+				{
+					"_index": 230,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"getsession(pnam",
+				{
+					"_index": 229,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"given",
+				{
+					"_index": 85,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"guard",
+				{
+					"_index": 105,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"header",
+				{
+					"_index": 53,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"helper",
+				{
+					"_index": 65,
+					"title": {
+						"docs/api/api/template-helpers.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"http",
+				{
+					"_index": 130,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"hybrid",
+				{
+					"_index": 163,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"ident",
+				{
+					"_index": 139,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"implement",
+				{
+					"_index": 125,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"inject",
+				{
+					"_index": 45,
+					"title": {
+						"docs/api/api/credential-injection.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"inspect",
+				{
+					"_index": 234,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"instanc",
+				{
+					"_index": 14,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"instanti",
+				{
+					"_index": 195,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"intern",
+				{
+					"_index": 240,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"invalid",
+				{
+					"_index": 227,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"iter",
+				{
+					"_index": 172,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"key",
+				{
+					"_index": 177,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"later",
+				{
+					"_index": 200,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"level",
+				{
+					"_index": 67,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"log",
+				{
+					"_index": 186,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"logic",
+				{
+					"_index": 91,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"login",
+				{
+					"_index": 162,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"longer",
+				{
+					"_index": 203,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"look",
+				{
+					"_index": 104,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"lookup",
+				{
+					"_index": 70,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"low",
+				{
+					"_index": 66,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"make",
+				{
+					"_index": 86,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"manag",
+				{
+					"_index": 5,
+					"title": {
+						"docs/api/api/session-management.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"manyfest'",
+				{
+					"_index": 252,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"map",
+				{
+					"_index": 231,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"mark",
+				{
+					"_index": 115,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"marker",
+				{
+					"_index": 221,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"match",
+				{
+					"_index": 152,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"maximum",
+				{
+					"_index": 148,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"mean",
+				{
+					"_index": 145,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"merg",
+				{
+					"_index": 137,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"method",
+				{
+					"_index": 23,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"millisecond",
+				{
+					"_index": 143,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"minimum",
+				{
+					"_index": 168,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"modifi",
+				{
+					"_index": 169,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"name",
+				{
+					"_index": 22,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"need",
+				{
+					"_index": 263,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"nest",
+				{
+					"_index": 157,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"new",
+				{
+					"_index": 212,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"newsessionstate(pconfigur",
+				{
+					"_index": 233,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"node.j",
+				{
+					"_index": 181,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"non",
+				{
+					"_index": 248,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"notat",
+				{
+					"_index": 77,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"null",
+				{
+					"_index": 131,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"number",
+				{
+					"_index": 149,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"object",
+				{
+					"_index": 28,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"on",
+				{
+					"_index": 196,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"onauthenticate(psessionst",
+				{
+					"_index": 121,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"onchecksession(psessionst",
+				{
+					"_index": 217,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"one'",
+				{
+					"_index": 174,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"onpreparecookies(psessionst",
+				{
+					"_index": 179,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"onprepareheaders(psessionst",
+				{
+					"_index": 175,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"option",
+				{
+					"_index": 81,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"organ",
+				{
+					"_index": 9,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {}
+					}
+				}
+			],
+			[
+				"orient",
+				{
+					"_index": 8,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {}
+					}
+				}
+			],
+			[
+				"origin",
+				{
+					"_index": 62,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"otherwis",
+				{
+					"_index": 119,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"outgo",
+				{
+					"_index": 46,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"overrid",
+				{
+					"_index": 36,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"paddress",
+				{
+					"_index": 251,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"pair",
+				{
+					"_index": 178,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"paramet",
+				{
+					"_index": 98,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"pars",
+				{
+					"_index": 132,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"parsetemplatestring(ptempl",
+				{
+					"_index": 242,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"pass",
+				{
+					"_index": 134,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"pattern",
+				{
+					"_index": 192,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"pconfigur",
+				{
+					"_index": 225,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"pcredenti",
+				{
+					"_index": 83,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"pdata",
+				{
+					"_index": 123,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"pict",
+				{
+					"_index": 3,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"pict'",
+				{
+					"_index": 156,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"poption",
+				{
+					"_index": 165,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"post",
+				{
+					"_index": 87,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"pre",
+				{
+					"_index": 237,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"prepar",
+				{
+					"_index": 214,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"preparerequestoptions(pnam",
+				{
+					"_index": 164,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"preparerequestoptionsauto(popt",
+				{
+					"_index": 170,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"preserv",
+				{
+					"_index": 180,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"prespons",
+				{
+					"_index": 122,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"previous",
+				{
+					"_index": 202,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"process",
+				{
+					"_index": 34,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"progress",
+				{
+					"_index": 111,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"provid",
+				{
+					"_index": 194,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"receiv",
+				{
+					"_index": 219,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"refer",
+				{
+					"_index": 1,
+					"title": {
+						"docs/api/api/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"regist",
+				{
+					"_index": 13,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"remain",
+				{
+					"_index": 118,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"remov",
+				{
+					"_index": 21,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"removesession(pnam",
+				{
+					"_index": 228,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"repeat",
+				{
+					"_index": 208,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"replac",
+				{
+					"_index": 197,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"request",
+				{
+					"_index": 48,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"requir",
+				{
+					"_index": 100,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"reset",
+				{
+					"_index": 223,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"resolut",
+				{
+					"_index": 68,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"resolv",
+				{
+					"_index": 72,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"resolveaddress(pobject",
+				{
+					"_index": 250,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"respons",
+				{
+					"_index": 35,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"rest",
+				{
+					"_index": 47,
+					"title": {
+						"docs/api/api/rest-client-connection.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"restclient",
+				{
+					"_index": 188,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"restclient'",
+				{
+					"_index": 190,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"restor",
+				{
+					"_index": 61,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"result",
+				{
+					"_index": 133,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"retri",
+				{
+					"_index": 90,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"retriev",
+				{
+					"_index": 20,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"return",
+				{
+					"_index": 108,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"runtim",
+				{
+					"_index": 154,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"same",
+				{
+					"_index": 253,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"second",
+				{
+					"_index": 135,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"sensibl",
+				{
+					"_index": 138,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"servic",
+				{
+					"_index": 7,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {}
+					}
+				}
+			],
+			[
+				"session",
+				{
+					"_index": 4,
+					"title": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"session'",
+				{
+					"_index": 167,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"set",
+				{
+					"_index": 140,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"setup",
+				{
+					"_index": 17,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {}
+					}
+				}
+			],
+			[
+				"simul",
+				{
+					"_index": 266,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"six",
+				{
+					"_index": 10,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {}
+					}
+				}
+			],
+			[
+				"skip",
+				{
+					"_index": 184,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"sourc",
+				{
+					"_index": 160,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"specif",
+				{
+					"_index": 49,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"state",
+				{
+					"_index": 27,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"statu",
+				{
+					"_index": 260,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"still",
+				{
+					"_index": 40,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"store",
+				{
+					"_index": 102,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"string",
+				{
+					"_index": 73,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"subclass",
+				{
+					"_index": 128,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"substr",
+				{
+					"_index": 151,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"success",
+				{
+					"_index": 114,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {}
+					}
+				}
+			],
+			[
+				"successfulli",
+				{
+					"_index": 204,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"summari",
+				{
+					"_index": 29,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"support",
+				{
+					"_index": 89,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"syntax",
+				{
+					"_index": 155,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"templat",
+				{
+					"_index": 64,
+					"title": {
+						"docs/api/api/template-helpers.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"template'",
+				{
+					"_index": 247,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"test",
+				{
+					"_index": 235,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"through",
+				{
+					"_index": 146,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"throughout",
+				{
+					"_index": 254,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"time",
+				{
+					"_index": 94,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"timer",
+				{
+					"_index": 213,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"token",
+				{
+					"_index": 161,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"travers",
+				{
+					"_index": 256,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"truthi",
+				{
+					"_index": 220,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"type",
+				{
+					"_index": 99,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"typic",
+				{
+					"_index": 262,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"unchang",
+				{
+					"_index": 245,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"uniqu",
+				{
+					"_index": 226,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"unless",
+				{
+					"_index": 265,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"up",
+				{
+					"_index": 93,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"updat",
+				{
+					"_index": 215,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"url",
+				{
+					"_index": 52,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"us",
+				{
+					"_index": 112,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"util",
+				{
+					"_index": 71,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"valid",
+				{
+					"_index": 41,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"valu",
+				{
+					"_index": 126,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/configuration.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"vari",
+				{
+					"_index": 158,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"verifi",
+				{
+					"_index": 38,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"wait",
+				{
+					"_index": 150,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/configuration.md": {}
+					}
+				}
+			],
+			[
+				"warn",
+				{
+					"_index": 185,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/credential-injection.md": {}
+					}
+				}
+			],
+			[
+				"whether",
+				{
+					"_index": 78,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			],
+			[
+				"window",
+				{
+					"_index": 210,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"wire",
+				{
+					"_index": 57,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"within",
+				{
+					"_index": 209,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/session-check.md": {}
+					}
+				}
+			],
+			[
+				"without",
+				{
+					"_index": 30,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/README.md": {},
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/rest-client-connection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {}
+					}
+				}
+			],
+			[
+				"wrap",
+				{
+					"_index": 189,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"wrapper",
+				{
+					"_index": 198,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/rest-client-connection.md": {}
+					}
+				}
+			],
+			[
+				"ye",
+				{
+					"_index": 101,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"docs/api/api/authentication.md": {},
+						"docs/api/api/credential-injection.md": {},
+						"docs/api/api/session-check.md": {},
+						"docs/api/api/session-management.md": {},
+						"docs/api/api/template-helpers.md": {}
+					}
+				}
+			]
+		],
+		"pipeline": [
+			"stemmer"
+		]
+	},
+	"Documents": {
+		"docs/api/api/README.md": {
+			"Title": "API Reference",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/README.md"
+		},
+		"docs/api/api/authentication.md": {
+			"Title": "Authentication",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/authentication.md"
+		},
+		"docs/api/api/configuration.md": {
+			"Title": "Session Configuration",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/configuration.md"
+		},
+		"docs/api/api/credential-injection.md": {
+			"Title": "Credential Injection",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/credential-injection.md"
+		},
+		"docs/api/api/rest-client-connection.md": {
+			"Title": "REST Client Connection",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/rest-client-connection.md"
+		},
+		"docs/api/api/session-check.md": {
+			"Title": "Session Checking",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/session-check.md"
+		},
+		"docs/api/api/session-management.md": {
+			"Title": "Session Management",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/session-management.md"
+		},
+		"docs/api/api/template-helpers.md": {
+			"Title": "Template Helpers",
+			"Module": "api",
+			"Group": "docs",
+			"DocPath": "api/template-helpers.md"
+		}
+	}
+}
