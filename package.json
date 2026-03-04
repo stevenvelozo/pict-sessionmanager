@@ -1,0 +1,54 @@
+{
+  "name": "pict-sessionmanager",
+  "version": "1.0.0",
+  "description": "A session management service for pict that handles authenticated REST requests across multiple security contexts.",
+  "main": "source/Pict-SessionManager.js",
+  "scripts": {
+    "start": "node source/Pict-SessionManager.js",
+    "coverage": "npx quack coverage",
+    "test": "npx quack test",
+    "build": "npx quack build"
+  },
+  "mocha": {
+    "diff": true,
+    "extension": [
+      "js"
+    ],
+    "package": "./package.json",
+    "reporter": "spec",
+    "slow": "75",
+    "timeout": "10000",
+    "ui": "tdd",
+    "watch-files": [
+      "source/**/*.js",
+      "test/**/*.js"
+    ],
+    "watch-ignore": [
+      "lib/vendor"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenvelozo/pict-sessionmanager.git"
+  },
+  "keywords": [
+    "session",
+    "authentication",
+    "rest",
+    "pict",
+    "fable"
+  ],
+  "author": "Steven Velozo <steven@velozo.com> (http://velozo.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenvelozo/pict-sessionmanager/issues"
+  },
+  "homepage": "https://github.com/stevenvelozo/pict-sessionmanager",
+  "devDependencies": {
+    "quackage": "^1.0.59",
+    "pict": "^1.0.0"
+  },
+  "dependencies": {
+    "fable-serviceproviderbase": "^3.0.19"
+  }
+}
