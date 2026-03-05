@@ -38,6 +38,7 @@ const defaultSessionConfiguration = (
 		HeaderValueTemplate: false,        // e.g. '{~D:Record.Token~}'
 		CookieName: false,                 // Cookie name to inject
 		CookieValueAddress: false,         // Manyfest address in SessionData to get cookie value
+		CookieValueTemplate: false,        // e.g. '{~D:Record.SessionID~}' — template for cookie value
 
 		// Credentials (set at runtime via authenticate())
 		Credentials: {}
@@ -571,7 +572,12 @@ class PictSessionManager extends libFableServiceProviderBase
 		}
 
 		// Extract cookie value if configured
-		if (tmpConfig.CookieName && tmpConfig.CookieValueAddress)
+		if (tmpConfig.CookieName && tmpConfig.CookieValueTemplate)
+		{
+			let tmpCookieValue = this.parseTemplateString(tmpConfig.CookieValueTemplate, pSessionState.SessionData);
+			pSessionState.Cookies[tmpConfig.CookieName] = tmpCookieValue;
+		}
+		else if (tmpConfig.CookieName && tmpConfig.CookieValueAddress)
 		{
 			let tmpCookieValue = this.resolveAddress(pSessionState.SessionData, tmpConfig.CookieValueAddress);
 			if (tmpCookieValue !== undefined && tmpCookieValue !== null)

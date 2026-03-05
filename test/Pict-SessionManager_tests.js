@@ -1987,6 +1987,82 @@ suite
 						Expect(tmpSession.Cookies['sid']).to.equal(undefined);
 					}
 				);
+
+				test
+				(
+					'should use CookieValueTemplate when configured',
+					() =>
+					{
+						let tmpPict = createTestPict();
+
+						tmpPict.SessionManager.addSession('TemplateCookie',
+							{
+								Type: 'Cookie',
+								CookieName: 'UserSession',
+								CookieValueTemplate: '{~D:Record.SessionID~}'
+							});
+
+						let tmpSession = tmpPict.SessionManager.getSession('TemplateCookie');
+						tmpSession.SessionData = { SessionID: 'abc-123-xyz' };
+
+						tmpPict.SessionManager.onAuthenticate(tmpSession, null, tmpSession.SessionData);
+
+						Expect(tmpSession.Cookies['UserSession']).to.equal('abc-123-xyz');
+					}
+				);
+
+				test
+				(
+					'CookieValueTemplate should take precedence over CookieValueAddress',
+					() =>
+					{
+						let tmpPict = createTestPict();
+
+						tmpPict.SessionManager.addSession('TemplatePrecedence',
+							{
+								Type: 'Cookie',
+								CookieName: 'sid',
+								CookieValueTemplate: 'TOKEN-{~D:Record.Token~}',
+								CookieValueAddress: 'Token'
+							});
+
+						let tmpSession = tmpPict.SessionManager.getSession('TemplatePrecedence');
+						tmpSession.SessionData = { Token: 'MY_TOKEN' };
+
+						tmpPict.SessionManager.onAuthenticate(tmpSession, null, tmpSession.SessionData);
+
+						// Template should win over address
+						Expect(tmpSession.Cookies['sid']).to.equal('TOKEN-MY_TOKEN');
+					}
+				);
+
+				test
+				(
+					'CookieValueTemplate should produce correct cookie header when injected',
+					() =>
+					{
+						let tmpPict = createTestPict();
+
+						tmpPict.SessionManager.addSession('CookieTemplateInject',
+							{
+								Type: 'Cookie',
+								CookieName: 'UserSession',
+								CookieValueTemplate: '{~D:Record.SessionID~}',
+								DomainMatch: 'example.com'
+							});
+
+						let tmpSession = tmpPict.SessionManager.getSession('CookieTemplateInject');
+						tmpSession.Authenticated = true;
+						tmpSession.SessionData = { SessionID: 'sess-456' };
+
+						tmpPict.SessionManager.onAuthenticate(tmpSession, null, tmpSession.SessionData);
+
+						let tmpOptions = { url: 'http://example.com/api/test', headers: {} };
+						tmpOptions = tmpPict.SessionManager.prepareRequestOptions('CookieTemplateInject', tmpOptions);
+
+						Expect(tmpOptions.headers.cookie).to.contain('UserSession=sess-456');
+					}
+				);
 			}
 		);
 
