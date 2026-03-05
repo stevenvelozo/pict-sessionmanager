@@ -1,6 +1,6 @@
 {
   "name": "pict-sessionmanager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A session management service for pict that handles authenticated REST requests across multiple security contexts.",
   "main": "source/Pict-SessionManager.js",
   "scripts": {
