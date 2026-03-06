@@ -1,6 +1,6 @@
 {
   "name": "pict-sessionmanager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A session management service for pict that handles authenticated REST requests across multiple security contexts.",
   "main": "source/Pict-SessionManager.js",
   "scripts": {
@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/stevenvelozo/pict-sessionmanager",
   "devDependencies": {
-    "quackage": "^1.0.61",
+    "quackage": "^1.0.63",
     "pict": "^1.0.357"
   },
   "dependencies": {
