@@ -45,8 +45,9 @@
   },
   "homepage": "https://github.com/stevenvelozo/pict-sessionmanager",
   "devDependencies": {
-    "quackage": "^1.1.0",
-    "pict": "^1.0.357"
+    "pict": "^1.0.357",
+    "pict-docuserve": "^0.1.5",
+    "quackage": "^1.1.0"
   },
   "dependencies": {
     "fable-serviceproviderbase": "^3.0.19"
