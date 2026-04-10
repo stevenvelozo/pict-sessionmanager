@@ -84,8 +84,8 @@ Complete reference for all session configuration options. Configuration is passe
 
 All template strings use Pict's `{~D:Record.Key~}` syntax:
 
-- `{~D:Record.UserName~}` — resolves `UserName` from the data object
-- `{~D:Record.Auth.Token~}` — resolves nested `Auth.Token` from the data object
+- `{~D:Record.UserName~}` -- resolves `UserName` from the data object
+- `{~D:Record.Auth.Token~}` -- resolves nested `Auth.Token` from the data object
 - Any Pict template expression can be used
 
 The data object varies by context:

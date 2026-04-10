@@ -13,7 +13,7 @@ Add a named session to the session manager with the given configuration.
 | `pName` | `string` | Yes | Unique session name |
 | `pConfiguration` | `object` | No | Session configuration (merged with defaults) |
 
-**Returns:** `object|false` — The session state object, or `false` if the name is invalid.
+**Returns:** `object|false` -- The session state object, or `false` if the name is invalid.
 
 **Example:**
 
@@ -75,7 +75,7 @@ Remove a named session from the session manager.
 |-----------|------|----------|-------------|
 | `pName` | `string` | Yes | Session name to remove |
 
-**Returns:** `boolean` — `true` if the session was found and removed, `false` otherwise.
+**Returns:** `boolean` -- `true` if the session was found and removed, `false` otherwise.
 
 **Example:**
 
@@ -101,7 +101,7 @@ Retrieve the session state object for a named session.
 |-----------|------|----------|-------------|
 | `pName` | `string` | Yes | Session name |
 
-**Returns:** `object|false` — The session state object, or `false` if not found.
+**Returns:** `object|false` -- The session state object, or `false` if not found.
 
 **Example:**
 
@@ -126,7 +126,7 @@ console.log(tmpMissing); // false
 
 Get a summary of all registered sessions.
 
-**Returns:** `object` — A map of session name to summary object containing `Name`, `Type`, `Authenticated`, and `DomainMatch`.
+**Returns:** `object` -- A map of session name to summary object containing `Name`, `Type`, `Authenticated`, and `DomainMatch`.
 
 **Example:**
 
@@ -154,7 +154,7 @@ Create a new session state object from a configuration without adding it to the 
 |-----------|------|----------|-------------|
 | `pConfiguration` | `object` | No | Session configuration (merged with defaults) |
 
-**Returns:** `object` — A session state object.
+**Returns:** `object` -- A session state object.
 
 **Example:**
 
@@ -185,7 +185,7 @@ Clear all authentication state for a named session. Resets the session to its pr
 |-----------|------|----------|-------------|
 | `pName` | `string` | Yes | Session name |
 
-**Returns:** `boolean` — `true` if the session was found and deauthenticated, `false` if not found.
+**Returns:** `boolean` -- `true` if the session was found and deauthenticated, `false` if not found.
 
 **Example:**
 

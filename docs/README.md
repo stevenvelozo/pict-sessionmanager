@@ -2,7 +2,7 @@
 
 > Authenticated REST session management for the Pict ecosystem
 
-Pict Session Manager handles authenticated REST requests across multiple security contexts. It manages session lifecycle — authentication, session checking, credential injection — and automatically wires session headers and cookies into outgoing REST client requests based on domain matching.
+Pict Session Manager handles authenticated REST requests across multiple security contexts. It manages session lifecycle -- authentication, session checking, credential injection -- and automatically wires session headers and cookies into outgoing REST client requests based on domain matching.
 
 Built on Pict's template engine for URI and body template resolution, Manyfest for dot-notation address resolution, and the expression parser for solver-based session checks.
 
@@ -87,7 +87,7 @@ npm install pict-sessionmanager
 
 **Peer dependency:**
 
-- `pict` (^1.0.x) — provides the template engine, Manyfest, ExpressionParser, and RestClient
+- `pict` (^1.0.x) -- provides the template engine, Manyfest, ExpressionParser, and RestClient
 
 ## Session Types
 

@@ -21,7 +21,7 @@ Connect this session manager to a Fable RestClient instance. Wraps the RestClien
 3. Replaces `prepareRequestOptions` with a wrapper that calls the original first, then passes the result through `prepareRequestOptionsAuto()`
 4. Stores references for later disconnection
 
-**Example — Connect to Default RestClient:**
+**Example -- Connect to Default RestClient:**
 
 ```javascript
 const libPict = require('pict');
@@ -45,7 +45,7 @@ tmpPict.SessionManager.addSession('MyAPI',
 tmpPict.SessionManager.authenticate('MyAPI', { Key: 'my-key' },
 	(pError) =>
 	{
-		// Connect — all future requests get credentials injected
+		// Connect -- all future requests get credentials injected
 		tmpPict.SessionManager.connectToRestClient(tmpPict.RestClient);
 
 		// This request automatically gets the Authorization header
@@ -58,7 +58,7 @@ tmpPict.SessionManager.authenticate('MyAPI', { Key: 'my-key' },
 	});
 ```
 
-**Example — Connect Without Argument:**
+**Example -- Connect Without Argument:**
 
 ```javascript
 // If no argument is passed, uses pict.RestClient
@@ -80,7 +80,7 @@ Disconnect this session manager from a previously connected RestClient. Restores
 |-----------|------|----------|-------------|
 | `pRestClient` | `object` | No | The RestClient to disconnect. If not provided, disconnects the previously connected RestClient. |
 
-**Returns:** `boolean` — `true` if successfully disconnected, `false` if no connected RestClient was found.
+**Returns:** `boolean` -- `true` if successfully disconnected, `false` if no connected RestClient was found.
 
 **Example:**
 
@@ -90,7 +90,7 @@ tmpPict.SessionManager.connectToRestClient(tmpPict.RestClient);
 
 // ... use the REST client with auto-injection ...
 
-// Disconnect — restores original behavior
+// Disconnect -- restores original behavior
 let tmpResult = tmpPict.SessionManager.disconnectRestClient();
 console.log(tmpResult); // true
 
@@ -103,7 +103,7 @@ tmpPict.RestClient.getJSON(
 	});
 ```
 
-**Example — Disconnect Specific RestClient:**
+**Example -- Disconnect Specific RestClient:**
 
 ```javascript
 tmpPict.SessionManager.connectToRestClient(tmpPict.RestClient);
@@ -112,7 +112,7 @@ tmpPict.SessionManager.connectToRestClient(tmpPict.RestClient);
 tmpPict.SessionManager.disconnectRestClient(tmpPict.RestClient);
 ```
 
-**Example — Disconnect When Not Connected:**
+**Example -- Disconnect When Not Connected:**
 
 ```javascript
 // Returns false if nothing was connected

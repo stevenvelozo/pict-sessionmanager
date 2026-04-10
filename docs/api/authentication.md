@@ -27,7 +27,7 @@ Supports configurable retry logic: if the request fails, it retries up to `Authe
 7. On success: marks session as authenticated, stores response data, calls `onAuthenticate()`
 8. On failure: retries if attempts remain, otherwise returns the error
 
-**Example — GET Authentication:**
+**Example -- GET Authentication:**
 
 ```javascript
 tmpPict.SessionManager.addSession('MyAPI',
@@ -56,7 +56,7 @@ tmpPict.SessionManager.authenticate('MyAPI',
 	});
 ```
 
-**Example — POST Authentication:**
+**Example -- POST Authentication:**
 
 ```javascript
 tmpPict.SessionManager.addSession('WebApp',
@@ -89,7 +89,7 @@ tmpPict.SessionManager.authenticate('WebApp',
 	});
 ```
 
-**Example — With Retry:**
+**Example -- With Retry:**
 
 ```javascript
 tmpPict.SessionManager.addSession('UnstableAPI',
@@ -136,7 +136,7 @@ Called automatically after a successful authentication request. Override this in
 2. If `HeaderName` is configured without a template: looks up `HeaderName` as an address in `SessionData` and stores the resolved value
 3. If `CookieName` and `CookieValueAddress` are configured: resolves the address in `SessionData` and stores the cookie value
 
-**Example — Custom Override:**
+**Example -- Custom Override:**
 
 ```javascript
 const libPictSessionManager = require('pict-sessionmanager');

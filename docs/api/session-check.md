@@ -18,14 +18,14 @@ Supports debouncing: if `CheckSessionDebounce` is set, repeated calls within the
 **Behavior:**
 
 1. Looks up the named session
-2. Checks the debounce timer — if within the debounce window, returns cached state
+2. Checks the debounce timer -- if within the debounce window, returns cached state
 3. Resolves the `CheckSessionURITemplate` using Pict templates
 4. Prepares request options with current session credentials
 5. Makes a GET or POST request (based on `CheckSessionMethod`)
 6. Calls `onCheckSession()` to evaluate the response
 7. Updates the session authentication state and returns the result
 
-**Example — Basic Check:**
+**Example -- Basic Check:**
 
 ```javascript
 tmpPict.SessionManager.addSession('MyAPI',
@@ -53,7 +53,7 @@ tmpPict.SessionManager.checkSession('MyAPI',
 	});
 ```
 
-**Example — With Debounce:**
+**Example -- With Debounce:**
 
 ```javascript
 tmpPict.SessionManager.addSession('FrequentAPI',
@@ -94,7 +94,7 @@ Called automatically by `checkSession()` after receiving the response. Override 
 | `pResponse` | `object` | The HTTP response |
 | `pData` | `*` | The parsed response data |
 
-**Returns:** `boolean` — Whether the session is authenticated.
+**Returns:** `boolean` -- Whether the session is authenticated.
 
 **Default Behavior:**
 
@@ -147,7 +147,7 @@ Evaluates the marker as a Pict ExpressionParser expression against the response 
 // Response: { ActiveSessions: 5 } => returns true (6 is truthy)
 ```
 
-**Example — Custom Override:**
+**Example -- Custom Override:**
 
 ```javascript
 const libPictSessionManager = require('pict-sessionmanager');

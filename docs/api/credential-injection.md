@@ -15,7 +15,7 @@ Only injects credentials if the session exists and is authenticated.
 | `pName` | `string` | Yes | Session name |
 | `pOptions` | `object` | Yes | Request options object (must have `.url` at minimum) |
 
-**Returns:** `object` — The modified request options with injected credentials.
+**Returns:** `object` -- The modified request options with injected credentials.
 
 **Example:**
 
@@ -61,7 +61,7 @@ Iterates all registered sessions and checks each one's `DomainMatch` against `pO
 |-----------|------|----------|-------------|
 | `pOptions` | `object` | Yes | Request options object with `.url` |
 
-**Returns:** `object` — The modified request options.
+**Returns:** `object` -- The modified request options.
 
 **Example:**
 
@@ -105,16 +105,16 @@ Overridable method that injects headers from a session into request options. The
 | `pSessionState` | `object` | The session state object |
 | `pOptions` | `object` | The request options |
 
-**Returns:** `object` — The modified request options.
+**Returns:** `object` -- The modified request options.
 
-**Example — Default Behavior:**
+**Example -- Default Behavior:**
 
 ```javascript
 // If pSessionState.Headers = { 'Authorization': 'Bearer abc123' }
 // Then pOptions.headers['Authorization'] = 'Bearer abc123' after injection
 ```
 
-**Example — Custom Override:**
+**Example -- Custom Override:**
 
 ```javascript
 class MySessionManager extends libPictSessionManager
@@ -147,9 +147,9 @@ Only called when `cookieCapability` is `true` (Node.js environment). In browser 
 | `pSessionState` | `object` | The session state object |
 | `pOptions` | `object` | The request options |
 
-**Returns:** `object` — The modified request options.
+**Returns:** `object` -- The modified request options.
 
-**Example — Default Behavior:**
+**Example -- Default Behavior:**
 
 ```javascript
 // If pSessionState.Cookies = { 'session_id': 'abc123', 'pref': 'dark' }
@@ -157,7 +157,7 @@ Only called when `cookieCapability` is `true` (Node.js environment). In browser 
 // Then pOptions.headers.cookie = 'existing=value; session_id=abc123; pref=dark'
 ```
 
-**Example — Custom Override:**
+**Example -- Custom Override:**
 
 ```javascript
 class MySessionManager extends libPictSessionManager

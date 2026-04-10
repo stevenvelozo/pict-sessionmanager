@@ -13,7 +13,7 @@ Resolve a Pict template string against a data object. Uses Pict's `{~D:Record.Ke
 | `pTemplate` | `string` | Yes | Template string with Pict directives |
 | `pData` | `object` | Yes | Data object (accessible as `Record` in templates) |
 
-**Returns:** `string` — The resolved template string. Returns empty string if template is falsy or not a string. Returns the template unchanged if data is falsy or not an object.
+**Returns:** `string` -- The resolved template string. Returns empty string if template is falsy or not a string. Returns the template unchanged if data is falsy or not an object.
 
 **Example:**
 
@@ -54,7 +54,7 @@ console.log(tmpNoData); // 'Hello {~D:Record.Name~}' (returned unchanged)
 
 ## buildRequestBody(pTemplate, pData)
 
-Build a request body object from a template object. Iterates the template's keys — string values are parsed through `parseTemplateString()`, non-string values are copied as-is.
+Build a request body object from a template object. Iterates the template's keys -- string values are parsed through `parseTemplateString()`, non-string values are copied as-is.
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ Build a request body object from a template object. Iterates the template's keys
 | `pTemplate` | `object` | Yes | Body template object |
 | `pData` | `object` | Yes | Data object for template resolution |
 
-**Returns:** `object` — The resolved body object. Returns empty object if template is falsy. Returns a deep copy of the template if data is falsy.
+**Returns:** `object` -- The resolved body object. Returns empty object if template is falsy. Returns a deep copy of the template if data is falsy.
 
 **Example:**
 
@@ -120,7 +120,7 @@ Resolve a dot-notation address in an object using Manyfest's `getValueByHash()`.
 | `pObject` | `object` | Yes | The object to traverse |
 | `pAddress` | `string` | Yes | Dot-notation address (e.g. `'User.Profile.Name'`) |
 
-**Returns:** `*` — The resolved value, or `undefined` if not found or if parameters are falsy.
+**Returns:** `*` -- The resolved value, or `undefined` if not found or if parameters are falsy.
 
 **Example:**
 
@@ -159,7 +159,7 @@ console.log(tmpResult2); // undefined
 
 Detect whether the current environment supports cookie management. In Node.js environments, `cookieCapability` is set to `true`. In browser environments (where `window` is defined), it is set to `false`.
 
-**Returns:** `boolean` — The cookie capability status.
+**Returns:** `boolean` -- The cookie capability status.
 
 **Example:**
 
