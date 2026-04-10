@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/stevenvelozo/pict-sessionmanager",
   "devDependencies": {
-    "quackage": "^1.0.63",
+    "quackage": "^1.1.0",
     "pict": "^1.0.357"
   },
   "dependencies": {
