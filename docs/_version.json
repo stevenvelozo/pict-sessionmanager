@@ -2,6 +2,6 @@
 	"Name": "pict-sessionmanager",
 	"Version": "1.0.2",
 	"Description": "A session management service for pict that handles authenticated REST requests across multiple security contexts.",
-	"GeneratedAt": "2026-05-26T18:25:06.046Z",
-	"GitCommit": "8f1f333"
+	"GeneratedAt": "2026-05-26T21:14:51.142Z",
+	"GitCommit": "2943eb1"
 }
