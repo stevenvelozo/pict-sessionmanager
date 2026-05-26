@@ -1,7 +1,7 @@
 {
-	"Generated": "2026-05-22T05:46:33.745Z",
+	"Generated": "2026-05-26T18:25:05.901Z",
 	"Mode": "module",
-	"GitHubOrg": "stevenvelozo",
+	"GitHubOrg": "fable-retold",
 	"DefaultBranch": "master",
 	"Module": {
 		"Name": "pict-sessionmanager",
@@ -71,27 +71,27 @@
 				"Children": [
 					{
 						"Title": "Pict",
-						"Path": "pict/pict/README.md"
+						"Path": "https://fable-retold.github.io/pict/README.md"
 					},
 					{
 						"Title": "Pict Application",
-						"Path": "pict/pict-application/README.md"
+						"Path": "https://fable-retold.github.io/pict-application/README.md"
 					},
 					{
 						"Title": "Pict View",
-						"Path": "pict/pict-view/README.md"
+						"Path": "https://fable-retold.github.io/pict-view/README.md"
 					},
 					{
 						"Title": "Pict Provider",
-						"Path": "pict/pict-provider/README.md"
+						"Path": "https://fable-retold.github.io/pict-provider/README.md"
 					},
 					{
 						"Title": "Fable",
-						"Path": "fable/fable/README.md"
+						"Path": "https://fable-retold.github.io/fable/README.md"
 					},
 					{
 						"Title": "Fable Service Base",
-						"Path": "fable/fable-serviceproviderbase/README.md"
+						"Path": "https://fable-retold.github.io/fable-serviceproviderbase/README.md"
 					}
 				]
 			}
