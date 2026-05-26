@@ -1,6 +1,6 @@
 # Pict Session Manager
 
-> **[&#9654; Read the Pict-Sessionmanager Documentation](https://stevenvelozo.github.io/pict-sessionmanager/)** &mdash; interactive docs with the full API reference.
+> **[&#9654; Read the Pict-Sessionmanager Documentation](https://fable-retold.github.io/pict-sessionmanager/)** &mdash; interactive docs with the full API reference.
 
 Authenticated REST session management for the Pict ecosystem. Manages multiple named sessions with automatic credential injection, configurable authentication flows, and domain-based request matching. Built on Pict's template engine, Manyfest address resolution, and the expression parser.
 
@@ -146,17 +146,17 @@ npm run coverage
 
 Pict Session Manager is a service provider in the Pict ecosystem:
 
-- [pict](https://github.com/stevenvelozo/pict) - MVC application framework
-- [pict-view](https://github.com/stevenvelozo/pict-view) - View base class
-- [pict-provider](https://github.com/stevenvelozo/pict-provider) - Data provider base class
-- [fable](https://github.com/stevenvelozo/fable) - Service dependency injection framework
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) - Service provider base class
+- [pict](https://github.com/fable-retold/pict) - MVC application framework
+- [pict-view](https://github.com/fable-retold/pict-view) - View base class
+- [pict-provider](https://github.com/fable-retold/pict-provider) - Data provider base class
+- [fable](https://github.com/fable-retold/fable) - Service dependency injection framework
+- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) - Service provider base class
 
 ## Related Packages
 
-- [pict](https://github.com/stevenvelozo/pict) - MVC application framework
-- [fable](https://github.com/stevenvelozo/fable) - Application services framework
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) - Service provider base class
+- [pict](https://github.com/fable-retold/pict) - MVC application framework
+- [fable](https://github.com/fable-retold/fable) - Application services framework
+- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) - Service provider base class
 
 ## License
 

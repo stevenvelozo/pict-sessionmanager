@@ -117,7 +117,7 @@ When checking if a session is still valid, the response can be evaluated in thre
 
 ## Related Packages
 
-- [pict](https://github.com/stevenvelozo/pict) - MVC application framework
-- [fable](https://github.com/stevenvelozo/fable) - Service dependency injection framework
-- [fable-serviceproviderbase](https://github.com/stevenvelozo/fable-serviceproviderbase) - Service provider base class
-- [pict-provider](https://github.com/stevenvelozo/pict-provider) - Pict data provider base class
+- [pict](https://github.com/fable-retold/pict) - MVC application framework
+- [fable](https://github.com/fable-retold/fable) - Service dependency injection framework
+- [fable-serviceproviderbase](https://github.com/fable-retold/fable-serviceproviderbase) - Service provider base class
+- [pict-provider](https://github.com/fable-retold/pict-provider) - Pict data provider base class

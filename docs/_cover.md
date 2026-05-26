@@ -12,4 +12,4 @@ Manage multiple authenticated REST sessions with automatic credential injection,
 
 [Quick Start](README.md)
 [API Reference](api/README.md)
-[GitHub](https://github.com/stevenvelozo/pict-sessionmanager)
+[GitHub](https://github.com/fable-retold/pict-sessionmanager)
