@@ -1,6 +1,6 @@
 # Pict Session Manager
 
-> **[&#9654; Read the Pict-Sessionmanager Documentation](https://fable-retold.github.io/pict-sessionmanager/)** &mdash; interactive docs with the full API reference.
+> **[Read the Pict-Sessionmanager Documentation](https://fable-retold.github.io/pict-sessionmanager/)** - interactive docs with the full API reference.
 
 Authenticated REST session management for the Pict ecosystem. Manages multiple named sessions with automatic credential injection, configurable authentication flows, and domain-based request matching. Built on Pict's template engine, Manyfest address resolution, and the expression parser.
 
