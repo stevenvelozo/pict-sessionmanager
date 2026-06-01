@@ -4,7 +4,7 @@
 
 Authenticated REST session management for the Pict ecosystem. Manages multiple named sessions with automatic credential injection, configurable authentication flows, and domain-based request matching. Built on Pict's template engine, Manyfest address resolution, and the expression parser.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[MIT License](LICENSE)
 
 ---
 
