@@ -1,0 +1,35 @@
+graph TB
+	subgraph Application
+		App[Application Code]
+	end
+
+	subgraph PictSessionManager["Pict Session Manager"]
+		SM[SessionManager Service]
+		Sessions[(Session Store)]
+		TH[Template Helpers]
+	end
+
+	subgraph PictServices["Pict Services"]
+		TE[Template Engine]
+		MF[Manyfest]
+		EP[ExpressionParser]
+		RC[RestClient]
+	end
+
+	subgraph External["External APIs"]
+		API1[API Server A]
+		API2[API Server B]
+	end
+
+	App -->|addSession / authenticate| SM
+	SM -->|session state| Sessions
+	SM -->|parseTemplate| TE
+	SM -->|getValueByHash| MF
+	SM -->|solve| EP
+	SM -->|connectToRestClient| RC
+	SM -->|URI / body resolution| TH
+	TH -->|delegates to| TE
+	TH -->|delegates to| MF
+	RC -->|auto-inject credentials| SM
+	RC -->|HTTP requests| API1
+	RC -->|HTTP requests| API2

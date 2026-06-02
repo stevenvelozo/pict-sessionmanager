@@ -1,0 +1,21 @@
+sequenceDiagram
+	participant App as Application
+	participant SM as SessionManager
+	participant RC as RestClient
+	participant API as API Server
+
+	App->>SM: checkSession('MyAPI')
+	SM->>SM: Check debounce timer
+	SM->>RC: getJSON or postJSON (CheckSessionURI)
+	RC->>API: HTTP request
+	API-->>RC: Response data
+	RC-->>SM: Response data
+	SM->>SM: onCheckSession() - evaluate marker
+	alt boolean marker
+		SM->>SM: Resolve address, check truthiness
+	else existence marker
+		SM->>SM: Resolve address, check not null/undefined
+	else solver marker
+		SM->>SM: ExpressionParser.solve(expression, data)
+	end
+	SM-->>App: Callback(null, isAuthenticated, sessionData)

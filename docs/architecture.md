@@ -4,43 +4,8 @@ Pict Session Manager is a Fable service provider that manages authenticated REST
 
 ## System Overview
 
-```mermaid
-graph TB
-	subgraph Application
-		App[Application Code]
-	end
-
-	subgraph PictSessionManager["Pict Session Manager"]
-		SM[SessionManager Service]
-		Sessions[(Session Store)]
-		TH[Template Helpers]
-	end
-
-	subgraph PictServices["Pict Services"]
-		TE[Template Engine]
-		MF[Manyfest]
-		EP[ExpressionParser]
-		RC[RestClient]
-	end
-
-	subgraph External["External APIs"]
-		API1[API Server A]
-		API2[API Server B]
-	end
-
-	App -->|addSession / authenticate| SM
-	SM -->|session state| Sessions
-	SM -->|parseTemplate| TE
-	SM -->|getValueByHash| MF
-	SM -->|solve| EP
-	SM -->|connectToRestClient| RC
-	SM -->|URI / body resolution| TH
-	TH -->|delegates to| TE
-	TH -->|delegates to| MF
-	RC -->|auto-inject credentials| SM
-	RC -->|HTTP requests| API1
-	RC -->|HTTP requests| API2
-```
+<!-- bespoke diagram: edit diagrams/system-overview.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-sessionmanager/docs -->
+![System Overview](diagrams/system-overview.svg)
 
 ## Data Flow
 
@@ -48,75 +13,22 @@ graph TB
 
 When `authenticate()` is called, the session manager resolves the authentication URI template, makes the authentication request, and extracts session credentials from the response.
 
-```mermaid
-sequenceDiagram
-	participant App as Application
-	participant SM as SessionManager
-	participant TE as Template Engine
-	participant RC as RestClient
-	participant API as API Server
-
-	App->>SM: authenticate('MyAPI', credentials)
-	SM->>SM: Store credentials on session
-	SM->>TE: parseTemplate(AuthenticationURITemplate, credentials)
-	TE-->>SM: Resolved URI
-	SM->>RC: getJSON or postJSON
-	RC->>API: HTTP request
-	API-->>RC: Response with token/session data
-	RC-->>SM: Response data
-	SM->>SM: onAuthenticate() - extract headers/cookies
-	SM->>SM: Mark session as Authenticated
-	SM-->>App: Callback(null, sessionState)
-```
+<!-- bespoke diagram: edit diagrams/authentication-flow.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-sessionmanager/docs -->
+![Authentication Flow](diagrams/authentication-flow.svg)
 
 ### Credential Injection Flow
 
 When connected to a RestClient, every outgoing request passes through the session manager. The URL is matched against configured domain patterns, and matching session credentials are injected.
 
-```mermaid
-sequenceDiagram
-	participant App as Application
-	participant RC as RestClient
-	participant SM as SessionManager
-	participant API as API Server
-
-	App->>RC: getJSON({ url: 'https://api.example.com/data' })
-	RC->>SM: prepareRequestOptionsAuto(options)
-	SM->>SM: Match URL against session DomainMatch values
-	SM->>SM: Inject headers and/or cookies
-	SM-->>RC: Modified options with credentials
-	RC->>API: HTTP request with injected credentials
-	API-->>RC: Response
-	RC-->>App: Callback(null, response, data)
-```
+<!-- bespoke diagram: edit diagrams/credential-injection-flow.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-sessionmanager/docs -->
+![Credential Injection Flow](diagrams/credential-injection-flow.svg)
 
 ### Session Check Flow
 
 Session checks verify that an existing session is still valid by making a configured request and evaluating the response.
 
-```mermaid
-sequenceDiagram
-	participant App as Application
-	participant SM as SessionManager
-	participant RC as RestClient
-	participant API as API Server
-
-	App->>SM: checkSession('MyAPI')
-	SM->>SM: Check debounce timer
-	SM->>RC: getJSON or postJSON (CheckSessionURI)
-	RC->>API: HTTP request
-	API-->>RC: Response data
-	RC-->>SM: Response data
-	SM->>SM: onCheckSession() - evaluate marker
-	alt boolean marker
-		SM->>SM: Resolve address, check truthiness
-	else existence marker
-		SM->>SM: Resolve address, check not null/undefined
-	else solver marker
-		SM->>SM: ExpressionParser.solve(expression, data)
-	end
-	SM-->>App: Callback(null, isAuthenticated, sessionData)
-```
+<!-- bespoke diagram: edit diagrams/session-check-flow.mmd or .hints.json, then: npx pict-renderer-graph build modules/pict/pict-sessionmanager/docs -->
+![Session Check Flow](diagrams/session-check-flow.svg)
 
 ## Service Provider Pattern
 

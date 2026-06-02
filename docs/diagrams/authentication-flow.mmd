@@ -1,0 +1,18 @@
+sequenceDiagram
+	participant App as Application
+	participant SM as SessionManager
+	participant TE as Template Engine
+	participant RC as RestClient
+	participant API as API Server
+
+	App->>SM: authenticate('MyAPI', credentials)
+	SM->>SM: Store credentials on session
+	SM->>TE: parseTemplate(AuthenticationURITemplate, credentials)
+	TE-->>SM: Resolved URI
+	SM->>RC: getJSON or postJSON
+	RC->>API: HTTP request
+	API-->>RC: Response with token/session data
+	RC-->>SM: Response data
+	SM->>SM: onAuthenticate() - extract headers/cookies
+	SM->>SM: Mark session as Authenticated
+	SM-->>App: Callback(null, sessionState)
